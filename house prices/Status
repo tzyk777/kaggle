@@ -1,0 +1,6 @@
+11/13/2016:
+1. Vectorized data, filled na value with mean
+2. Some problems were found when I using lasso regression to select features, I tried l1 penalty ranges from 0.05 to 75, the best model 
+according to cross validation is found when penalty is 30, however, when I using the best penlty to train a model on the training data set,
+the large number coefficients indicate overfitting problem.
+3. Need to study more masteries about feature engineering and selection
